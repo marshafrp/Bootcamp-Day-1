@@ -1,0 +1,95 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text{
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.photo img{
+    flex: 1;
+    border-radius: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .btn a {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #06b5f0; /* Warna background button */
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    transition: all 0.3s;
+    border: none;
+  }
+
+.linkedin-profile{
+    border:0;
+    font-size: 18px;
+}
+
+.btn:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.card{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 24px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.24);
+    min-height: 180px;
+    width: 282px;
+    max-width: 100%;
+    margin: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.title{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+#cardParent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.WorkExperience{
+    background-color: aliceblue;
+}
