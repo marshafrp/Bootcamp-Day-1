@@ -1,10 +1,61 @@
-#pasphoto {
-    
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
+
+.text{
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.photo img{
+    flex: 1;
+    border-radius: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
 h2 {
     color: black;
     text-align: center;
     font-family: sans-serif;
+}
+
+.btn {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .btn a {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #06b5f0; /* Warna background button */
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    transition: all 0.3s;
+    border: none;
+  }
+
+.linkedin-profile{
+    border:0;
+    font-size: 18px;
+}
+
+.btn:hover{
+    scale: 1.1;
+    transition: 0.3s;
 }
 
 .card{
@@ -36,11 +87,9 @@ h3{
 #cardParent{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(220, 248, 248);
+    
 }
 
-.card:hover{
-    scale: 1.1;
-    transition: 0.3s;
+.WorkExperience{
+    background-color: aliceblue;
 }
-
